@@ -1,0 +1,93 @@
+.App {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.App form {
+  display: flex;
+  flex-direction: column;
+  min-width: 400px;
+  padding: 20px 30px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+label{
+  margin-right: 10px;
+}
+
+input{
+  margin-right: 5px;
+}
+
+.App div:not(.error-message) {
+  margin-bottom: 15px;
+}
+
+.btn-div {
+  text-align: center;
+}
+
+.error-message {
+  color: red;
+  margin: 0;
+}
+
+h2{
+  text-align: center
+}
+
+.detail-container{
+  position:relative;
+}
+
+.cls-btn{
+  position: absolute;
+  top: -50px;
+  padding: 5px 10px;
+  right: 10px;
+  margin: 0;
+  border-radius: 50%;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  min-width: 400px;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+button{
+  padding: 5px 15px;
+    border: none;
+    background-color: darkslateblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+  background-color: darkblue;
+}
