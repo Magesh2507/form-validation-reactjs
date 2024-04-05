@@ -9,12 +9,17 @@
 .App form {
   display: flex;
   flex-direction: column;
-  min-width: 400px;
-  padding: 20px 30px;
+  padding: 10px 20px;
   background-color: aliceblue;
   border-radius: 10px;
 }
-
+.input-fields{
+  width: 100%;
+    border: 1px solid #00d3ff;
+    padding: 5px;
+    border-radius: 5px;
+  outline:none;
+}
 label{
   margin-right: 10px;
 }
