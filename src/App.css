@@ -14,7 +14,7 @@
   border-radius: 10px;
 }
 .input-fields{
-  width: 100%;
+  width: -webkit-fill-available;
     border: 1px solid #00d3ff;
     padding: 5px;
     border-radius: 5px;
@@ -25,7 +25,7 @@ label{
 }
 
 input{
-  margin-right: 5px;
+ /* margin-right: 5px;*/
 }
 
 .App div:not(.error-message) {
