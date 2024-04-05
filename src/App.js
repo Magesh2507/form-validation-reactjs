@@ -48,6 +48,7 @@ function App() {
               type="text"
               id="firstName"
               name="firstName"
+                className='input-fields'
             />
             <ErrorMessage className="error-message" name="firstName" component="div" />
           </div>
@@ -57,6 +58,7 @@ function App() {
               type="text"
               id="lastName"
               name="lastName"
+                 className='input-fields'
             />
             <ErrorMessage className="error-message" name="lastName" component="div" />
           </div>
@@ -66,6 +68,7 @@ function App() {
               type="email"
               id="email"
               name="email"
+                 className='input-fields'
             />
             <ErrorMessage className="error-message" name="email" component="div" />
           </div>
@@ -92,7 +95,7 @@ function App() {
           </div>
           <div>
             <label htmlFor="country">Country :</label>
-            <Field as="select" id="country" name="country">
+            <Field as="select" id="country" name="country"  className='input-fields'>
               <option value="">Select</option>
               {countries.map((country) => (
                 <option key={country} value={country}>
