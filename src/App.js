@@ -74,7 +74,7 @@ function App() {
           </div>
           <div>
             <label>Gender :</label>
-            <div>
+            <div className="gender">
               <label>
                 <Field type="radio" name="gender" value="male" />
                 Male
