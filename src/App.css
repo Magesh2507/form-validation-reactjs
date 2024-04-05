@@ -28,7 +28,7 @@ input{
  /* margin-right: 5px;*/
 }
 
-.App div:not(.error-message) {
+.App div:not(.error-message):not(.gender) {
   margin-bottom: 15px;
 }
 
