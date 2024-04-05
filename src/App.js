@@ -85,14 +85,7 @@ function App() {
               </label>
               <ErrorMessage className="error-message" name="gender" component="div" />
             </div>
-          </div>
-          <div>
-            <label>
-              <Field type="checkbox" name="acceptTerms" />
-              Accept Terms and Conditions
-            </label>
-            <ErrorMessage className="error-message" name="acceptTerms" component="div" />
-          </div>
+          </div>          
           <div>
             <label htmlFor="country">Country :</label>
             <Field as="select" id="country" name="country"  className='input-fields'>
@@ -116,6 +109,13 @@ function App() {
               ))}
               <ErrorMessage className="error-message" name="hobbies" component="div" />
             </div>
+          </div>
+          <div>
+            <label>
+              <Field type="checkbox" name="acceptTerms" />
+              Accept Terms and Conditions
+            </label>
+            <ErrorMessage className="error-message" name="acceptTerms" component="div" />
           </div>
           <div className='btn-div'><button type='submit'>Submit</button></div>
         </Form>
